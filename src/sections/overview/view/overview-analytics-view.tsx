@@ -68,7 +68,7 @@ export function OverviewAnalyticsView() {
         <Grid xs={12} md={6} lg={12}>
           <AnalyticsConversionRates
             title="Mapa de calor"
-            imageSrc="../../../../public/assets/mapa-de-calor.png"
+            imageSrc="/assets/mapa-de-calor.png"
           />
         </Grid>
 

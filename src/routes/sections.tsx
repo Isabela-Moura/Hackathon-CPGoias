@@ -43,6 +43,17 @@ export function Router() {
       ),
     },
     {
+      path: '/comunidade',
+      element: (
+        <DashboardLayout>
+          <Suspense fallback={renderFallback}>
+            <BlogPage />
+          </Suspense>
+        </DashboardLayout>
+      ),
+    },
+    
+    {
       path: '/dashboard',
       element: (
         <DashboardLayout>
